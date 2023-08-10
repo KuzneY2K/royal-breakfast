@@ -1,5 +1,5 @@
 * {
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -164,23 +164,33 @@ body {
     scale: 1.2;
 }
 
-.bottom-nav {
+.footer-box1 {
     background-color: #333;
-    display: flex;
-    justify-content: space-between;
+    text-align: left;
 }
 
-.bottom-navlinks ul {
+.footer-box2 {
+    background-color: #333;
+    text-align: right;
+}
+
+#navtitle-footer {
+    color: white;
+}
+
+.footer-navlinks ul {
     display: flex;
-    align-items: end;
+    justify-content: flex-end;
     list-style-type: none;
 }
 
-.bottom-navlinks ul li {
-    padding: 1rem .5rem;
+.footer-navlinks li {
+    display: flex;
+    padding: 1rem;
+    margin-top: .35rem;
 }
 
-.bottom-navlinks ul li a {
-    text-decoration: none;
+.footer-navlinks a {
     color: white;
+    text-decoration: none;
 }
